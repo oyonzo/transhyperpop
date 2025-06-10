@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+zstandard = "*"
+discord-logging = {editable = true, git = "https://github.com/Watchful1/DiscordLogging.git"}
+requests = "*"
+pymongo = {extras = ["srv"], version = "*"}
+scipy = "*"
+sortedcontainers = "*"
+praw = "*"
+multiprocessing-logging = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
